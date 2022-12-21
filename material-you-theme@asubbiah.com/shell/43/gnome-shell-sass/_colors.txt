@@ -5,7 +5,7 @@
 
 $is_highcontrast: "false";
 
-$_dark_base_color: darken(desaturate({{window_bg_color}}, 100%), 2%);
+$_dark_base_color: darken(desaturate({{window_bg_color}}, 2%), 2%);
 
 $base_color: if($variant == 'light', #fff, $_dark_base_color);
 $bg_color: if($variant == 'light', #f6f5f4, lighten($base_color, 5%));
